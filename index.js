@@ -69,7 +69,11 @@ function addbookmarks(name, owner, stars){
 }
 
 function removeBookmark(e){
-   (e.target.parentElement).remove()
+   console.log(e.target.parentElement,e.target.className)
+   if(e.target.className === 'imgX'){
+      (e.target.parentElement).parentElement.remove()
+   }
+   e.target.parentElement.remove()
 }
 
 const delaySearch = debounce(getRepos, 300)

@@ -43,9 +43,12 @@ body {
 }
 .close{
    display: block;
-   padding-right: 20px;
+   margin-right: 20px;
+   padding: 5px;
    width: 70px;
    height: 70px;
+   background-color: #fff;
+   border-radius: 50%;
 }
 .imgX {
    width: 3px;
