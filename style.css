@@ -51,7 +51,7 @@ body {
    border-radius: 50%;
 }
 .imgX {
-   width: 3px;
+   width: 2px;
    height: 70px;
    margin-left: 34px;
    transform: rotate(45deg);
@@ -60,7 +60,7 @@ body {
 .imgX::after {
    content: '';
    position: absolute;
-   width: 3px;
+   width: 2px;
    height: 70px;
    background-color:red;
    transform: rotate(90deg)

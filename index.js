@@ -69,7 +69,6 @@ function addbookmarks(name, owner, stars){
 }
 
 function removeBookmark(e){
-   console.log(e.target.parentElement,e.target.className)
    if(e.target.className === 'imgX'){
       (e.target.parentElement).parentElement.remove()
    }
